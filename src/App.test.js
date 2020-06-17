@@ -13,3 +13,4 @@ test('renders app title', () => {
   const title = getByText("Todo List");
   expect(title).toBeInTheDocument();
 });
+
